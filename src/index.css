@@ -1,0 +1,63 @@
+body {
+  margin: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.mycolor{
+  background-image: url('./pictures/photo2.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100vh;
+  margin-top: 3.5em;
+  background-repeat: no-repeat;
+  height: 70vh;
+  /* clip-path: circle(180vh at 50% -80vh); */
+
+}
+.myshadow{
+  background: linear-gradient(rgb(146, 142, 142), rgb(141, 124, 124));
+  color: rgba(0, 0, 0, 0.548);
+  box-shadow:  2px 2px 5px rgb(19, 19, 19);
+}
+#tag a{
+  border-radius: 10px;
+  margin-right: 1em;
+  background: linear-gradient(rgb(177, 54, 54), rgb(202, 103, 103));
+  color:rgb(179, 171, 171);
+  padding: 0.5em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+div a:hover{
+  background:rgb(179, 171, 171);
+  color:  rgb(63, 62, 62);
+  text-decoration: none;
+}
+.adj{
+  z-index: 99;
+  color: brown;
+  box-shadow:  2px 2px 5px rgb(19, 19, 19), inset 0.0001px 0.00001px 1px rgb(121, 119, 119);
+  z-index:1;
+}
+.adj h1{
+  line-height: 1.5em;
+
+}
+.style{
+  background: linear-gradient(rgb(77, 76, 76), rgb(71, 62, 62));
+}
+img{
+  cursor: pointer;
+}
+.booktitle{
+  line-height: 2em;
+  font-style: italic;
+  color: rgb(223, 115, 27);
+  text-align: center;
+  font-size:  2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
